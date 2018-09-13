@@ -21,6 +21,5 @@ jobs:
     trigger: true
   - put: bazaz-demo-cf
     params: 
-    manifest: test-api/manifest.yml
-    path: test-api/
-  
+      manifest: test-api/manifest.yml
+      path: test-api/
